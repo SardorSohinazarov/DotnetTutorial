@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#Basic", "C#Basic", "{7EF50856-29DB-4D56-B7B3-27C6F2A1F192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#OOP", "C#OOP", "{F6AC48A4-2AEB-422E-916E-76798B172457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#Advensed", "C#Advensed", "{5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B57A6E9-7120-4BB5-93D5-4FBA374A56C1}
+	EndGlobalSection
+EndGlobal
