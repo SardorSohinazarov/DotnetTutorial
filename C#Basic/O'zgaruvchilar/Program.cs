@@ -15,11 +15,15 @@ Console.WriteLine(int.MaxValue);
 
 //o'nlik sonlar
 float son7 = 3.242F;            //4 bayt => 32 bit
-double son8 = 5.623D;           //8 bayt => 64 bit
-
+double son8 = 5.623D;           //8 bayt => 64 
 
 //decimal
 decimal son9 = 244.873M;        //16 bayt => 128 bit
+
+
+//o'qishliroq son
+decimal son10 = 1_245_243;
+Console.WriteLine(son10);
 
 
 ///Dynamic
@@ -41,7 +45,6 @@ void DynamicAdd(object variable1, object variable2)
 
 //input
 var input = Console.ReadLine();
-
 
 
 //tryparse
