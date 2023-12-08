@@ -1,5 +1,4 @@
-﻿
-///butun sonlar
+﻿///butun sonlar
 byte son0 = 255;                //1 bayt => 8 bit 2**8
 short son1 = 32767;             //         16 bit 2**16
 int son2 = 2147483647;          //           32 bit 2**32

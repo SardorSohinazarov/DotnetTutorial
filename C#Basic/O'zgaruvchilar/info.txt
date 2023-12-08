@@ -1,0 +1,13 @@
+C# gramatikasi.
+Variables
+Naming convention
+Primitive Data types
+Dynamic vs object types
+Getting and Setting default values
+Input/Output
+
+.toString()
+
+Impliset -> Automatic
+Explicat -> Manually
+
