@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#OOP", "C#OOP", "{F6AC48A4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#Advensed", "C#Advensed", "{5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O'zgaruvchilar", "C#Basic\O'zgaruvchilar\O'zgaruvchilar.csproj", "{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "O'zgaruvchilar", "C#Basic\O'zgaruvchilar\O'zgaruvchilar.csproj", "{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatorlar", "C#Basic\Operatorlar\Operatorlar.csproj", "{F61B504E-C4A7-4222-8791-E082A8CBA0FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61B504E-C4A7-4222-8791-E082A8CBA0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61B504E-C4A7-4222-8791-E082A8CBA0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61B504E-C4A7-4222-8791-E082A8CBA0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61B504E-C4A7-4222-8791-E082A8CBA0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C3E1F69D-F0CF-4BF2-A014-E3AA4BEC2C84} = {7EF50856-29DB-4D56-B7B3-27C6F2A1F192}
+		{F61B504E-C4A7-4222-8791-E082A8CBA0FA} = {7EF50856-29DB-4D56-B7B3-27C6F2A1F192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B57A6E9-7120-4BB5-93D5-4FBA374A56C1}
