@@ -1,0 +1,8 @@
+3: console dastur: n(toq son:masalan 5) marta 
+conoledan malumat kiritilsin (masalan: 2,4,5,4,5) 
+va qaysi sonni jufti yo'qligini topib 
+bersin (bitwise operatorlardan birini ishlatsangiz 
+nur ustiga a'lo nur bo'ladi)
+
+input: 8 5 7 5 8
+output: 7
