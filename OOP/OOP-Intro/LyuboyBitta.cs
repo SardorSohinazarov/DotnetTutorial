@@ -7,7 +7,6 @@ public class LyuboyBitta
         Console.WriteLine("Salom Constrictordan");
     }
 
-
     public static void SalomBer()
     {
         Console.WriteLine("Qaleslar endi");
