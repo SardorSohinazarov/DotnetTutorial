@@ -1,7 +1,4 @@
-﻿
-
-
-using Collections;
+﻿using Collections;
 
 MeningCollectionim collectionim = new MeningCollectionim();
 
