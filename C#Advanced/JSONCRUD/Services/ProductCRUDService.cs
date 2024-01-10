@@ -19,6 +19,7 @@ namespace JSONCRUD.Services
             }
 
             products.Add(product);
+
             WriteAllProducts(products);
         }
 
