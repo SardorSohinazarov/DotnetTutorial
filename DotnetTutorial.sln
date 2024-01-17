@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultyThreading", "C#Advance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultyTasking", "C#Advanced\MultyTasking\MultyTasking.csproj", "{92C5CF4F-4EE8-4DEA-ADD6-A7F49B5E218E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot-1", "C#Advanced\TelegramBot-1\TelegramBot-1.csproj", "{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBot-1", "C#Advanced\TelegramBot-1\TelegramBot-1.csproj", "{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qorovul_Bot", "C#Advanced\Qorovul_Bot\Qorovul_Bot.csproj", "{F266A284-05FD-4062-ADC5-E63CE7D73E43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,10 @@ Global
 		{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F266A284-05FD-4062-ADC5-E63CE7D73E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F266A284-05FD-4062-ADC5-E63CE7D73E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F266A284-05FD-4062-ADC5-E63CE7D73E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F266A284-05FD-4062-ADC5-E63CE7D73E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{EE4F03DF-509E-4026-B2E7-9CB4D880855A} = {5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}
 		{92C5CF4F-4EE8-4DEA-ADD6-A7F49B5E218E} = {5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}
 		{8338D8D4-E3D9-49E0-86FD-5678EF4EFEE7} = {5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}
+		{F266A284-05FD-4062-ADC5-E63CE7D73E43} = {5AF1F05E-C23E-4C02-8AFC-9DF429717DEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B57A6E9-7120-4BB5-93D5-4FBA374A56C1}
