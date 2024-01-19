@@ -5,7 +5,7 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using VideoLibrary;
 
-var botClient = new TelegramBotClient("6666617530:AAEc5I4KUCpYe1JHw2KM4g0AD9GGSvxDxb0");
+var botClient = new TelegramBotClient("6531846063:AAGInKszG9xA3bUymMw-UWky9sr8qSsk5t8");
 
 using CancellationTokenSource cts = new();
 
@@ -43,15 +43,36 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
 
     Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
 
+    var elon = await botClient.SendTextMessageAsync(
+        chatId: chatId,
+        text: "Yuklayapmiz",
+        cancellationToken: cancellationToken
+        );
+
     YouTube youTube = new YouTube();
     var youtubeVideo = youTube.GetVideo(messageText);
 
     var bytes = await youtubeVideo.GetBytesAsync();
 
+    elon = await botClient.EditMessageTextAsync(
+        chatId: chatId,
+        messageId: elon.MessageId,
+        text: "Jonatyapmiz",
+        cancellationToken: cancellationToken
+        );
+
+    User a;
+
     await botClient.SendVideoAsync(
         chatId: chatId,
         video: InputFile.FromStream(new MemoryStream(bytes)),
         cancellationToken: cancellationToken);
+
+
+    await botClient.DeleteMessageAsync(
+        chatId: chatId,
+        messageId: elon.MessageId
+        );
 }
 
 Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
