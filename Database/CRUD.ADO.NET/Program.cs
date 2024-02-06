@@ -8,7 +8,8 @@ internal class Program
         //AddProduct("Olma", 10000);
         //GetProduct(1);
         //GetProducts();
-        UpdateProduct(1, "Nok", 5000);
+        //UpdateProduct(1, "Nok", 5000);
+        DeleteProduct(1);
     }
 
     private static void AddProduct(string name, int price)
@@ -76,6 +77,22 @@ internal class Program
             sqlCommand.Parameters.AddWithValue("@id", id);
             sqlCommand.Parameters.AddWithValue("@name", name);
             sqlCommand.Parameters.AddWithValue("@price", price);
+
+            sqlCommand.Connection.Open();
+            sqlCommand.ExecuteNonQuery();
+            sqlCommand.Connection.Dispose();
+        }
+    }
+
+    private static void DeleteProduct(int id)
+    {
+        string query = "Delete from Products where id=@id";
+
+        using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
+        {
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+
+            sqlCommand.Parameters.AddWithValue("@id", id);
 
             sqlCommand.Connection.Open();
             sqlCommand.ExecuteNonQuery();
